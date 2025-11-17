@@ -7,7 +7,7 @@ int main() {
 
     // Ask the user for their name
     printf("Enter your name: ");
-    scanf("%s", &name); 
+    scanf("%s", name); 
 
     
     printf("You entered: %s\n", name);

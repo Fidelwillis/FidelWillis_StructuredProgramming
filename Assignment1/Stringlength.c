@@ -5,9 +5,8 @@
 int main() {
     char name[100]; 
 
-    // Ask the user for their name
     printf("Enter your name: ");
-    scanf("%s", name); 
+    scanf("%99s", name); 
 
     
     printf("You entered: %s\n", name);
